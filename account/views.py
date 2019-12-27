@@ -97,6 +97,7 @@ def SRegisterPage(request):
         first_name = request.POST.get('First_Name')
         last_name = request.POST.get('Last_Name')
         Email = request.POST.get('Email')
+        print('hello')
         pass1 = request.POST.get('password1')
         pass2 = request.POST.get('password2')
         mobile = request.POST.get('mobile')
